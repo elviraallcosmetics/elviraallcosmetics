@@ -133,6 +133,8 @@ export default function BeautyShop() {
   const [showSkinToneModal, setShowSkinToneModal] = useState(false);
   const fileInputRef = useRef(null);
 
+  console.log(uploadedImage);
+
   const sampleProducts = useMemo(
     () => [
       {
