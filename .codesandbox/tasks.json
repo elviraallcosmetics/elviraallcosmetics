@@ -2,12 +2,12 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "command": "yarn install",
-      "name": "Installing Dependencies"
+      "name": "Installing Dependencies",
+      "command": "yarn install"
     },
     {
-      "command": "npm install",
-      "name": "n"
+      "name": "n",
+      "command": "npm install"
     }
   ],
 
@@ -33,7 +33,10 @@
     "n": {
       "name": "n",
       "command": "npm start",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
     }
   }
 }
