@@ -129,10 +129,17 @@ export default function Footer() {
         </div>
 
         <div className="text-xs text-gray-400 max-w-2xl mx-auto px-4 mb-3">
-          This website is for educational purposes only. All product images and
-          brand references are used for demonstration purposes. We are not
-          affiliated with, endorsed by, or associated with any of the companies,
-          brands, or products featured on this site.
+          Disclaimer!!! This website is intended solely for educational and
+          informational purposes. All product images, logos, trademarks, and
+          brand references are used only for demonstration or illustrative
+          purposes. We are not affiliated with, endorsed by, or associated with
+          any of the companies, brands, or products featured on this site. All
+          content provided herein is for academic learning, research, and
+          non-commercial use. Any resemblance to actual commercial materials or
+          entities is purely coincidental. By using this website, you agree to
+          our Terms and Conditions of Service, which outline the acceptable use
+          of the site, intellectual property guidelines, and user
+          responsibilities. Please review them carefully before proceeding.
         </div>
 
         <div className="text-xs text-gray-500 italic">
