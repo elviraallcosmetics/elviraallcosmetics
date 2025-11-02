@@ -829,38 +829,11 @@ export default function BeautyShop() {
 
                     {product.desc && (
   <div className="mb-3">
-    <button
-      onClick={() =>
-        setExpandedProduct(
-          expandedProduct === product.id ? null : product.id
-        )
-      }
-      className="w-full text-left text-xs text-gray-600 hover:text-gray-800 transition-colors py-2 px-3 rounded-lg hover:bg-gray-50"
-    >
-      <div className="flex items-center justify-between">
-        <span className="font-medium">
-          {expandedProduct === product.id
-            ? "Hide Description"
-            : "Show Description"}
-        </span>
-        <span
-          className="transform transition-transform"
-          style={{
-            transform:
-              expandedProduct === product.id
-                ? "rotate(180deg)"
-                : "rotate(0deg)",
-          }}
-        >
-          ▼
-        </span>
-      </div>
-    </button>
-    {expandedProduct === product.id && (
+    
+    
       <div className="text-xs text-gray-600 mt-2 px-3 py-2 bg-gray-50 rounded-lg leading-relaxed">
         {product.desc}
       </div>
-    )}
   </div>
 )}
 
