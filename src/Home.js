@@ -840,8 +840,8 @@ export default function BeautyShop() {
       <div className="flex items-center justify-between">
         <span className="font-medium">
           {expandedProduct === product.id
-            ? "Hide Details"
-            : "Show Details"}
+            ? "Hide Description"
+            : "Show Description"}
         </span>
         <span
           className="transform transition-transform"
