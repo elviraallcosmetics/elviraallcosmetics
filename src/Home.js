@@ -125,7 +125,6 @@ export default function BeautyShop() {
   const [showOrderModal, setShowOrderModal] = useState(false);
   const [showUploadPopup, setShowUploadPopup] = useState(false);
   const [confirmedOrder, setConfirmedOrder] = useState(null);
-  const [expandedProduct, setExpandedProduct] = useState(null);
 
   // New states for skin tone detection
   const [skinTone, setSkinTone] = useState(null);
