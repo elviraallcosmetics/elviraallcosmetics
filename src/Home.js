@@ -141,6 +141,7 @@ export default function BeautyShop() {
       {
         id: 18,
         title: "Kae Beauty Luminara Creme Lipstick",
+        desc: "temporary long long long long long long long long long long long long long long long long long long long long description",
         price: 1000.0,
         category: "Makeup",
         brand: "Kae Beauty",
