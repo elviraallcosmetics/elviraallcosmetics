@@ -140,107 +140,6 @@ export default function BeautyShop() {
       {
         id: 18,
         title: "Kae Beauty Luminara Creme Lipstick",
-        desc: "temporary long long long long long long long long long long long long long long long long long long long long description",
-        price: 1000.0,
-        category: "Makeup",
-        brand: "Kae Beauty",
-        rating: 4.5,
-        image: {
-          "Dream Girl": IMAGE_MAP.Dreagril,
-          "Head turner": IMAGE_MAP.Headturner,
-          Suspense: IMAGE_MAP.Suspense,
-        },
-        badge: "New",
-        shades: ["Dream Girl", "Head turner", "Suspense"],
-        skinTones: {
-          "Dream Girl": ["light", "medium"],
-          "Head turner": ["light", "medium", "deep"],
-          Suspense: ["medium", "light"],
-        },
-      },
-      {
-        id: 19,
-        title: "Pure Intent Matte Lipstick",
-        price: 1100.0,
-        category: "Makeup",
-        brand: "Rare Beautie",
-        rating: 4.5,
-        image: {
-          Fearless: IMAGE_MAP.Fearless,
-          Strengthen: IMAGE_MAP.Strengthen,
-          Thrilling: IMAGE_MAP.Thrilling,
-          Transform: IMAGE_MAP.Transform,
-        },
-        badge: "New",
-        shades: ["Fearless", "Strengthen", "Thrilling", "Transform"],
-        skinTones: {
-          Fearless: ["light", "medium", "deep"],
-          Strengthen: ["deep"],
-          Thrilling: ["medium", "light", "deep"],
-          Transform: ["medium", "light", "deep"],
-        },
-      },
-      {
-        id: 20,
-        title: "Luminara Creme lipstick",
-        price: 850,
-        category: "Makeup",
-        brand: "L’Oreal Parees",
-        rating: 4.5,
-        image: {
-          "Fairytale Ending": IMAGE_MAP.Fairytaleending,
-          "Lazy Sunday": IMAGE_MAP.LazySunday,
-          "Major Crush": IMAGE_MAP.Majorcrush,
-          "Pay Day": IMAGE_MAP.Payday,
-        },
-        badge: "New",
-        shades: ["Fairytale Ending", "Lazy Sunday", "Major Crush", "Pay Day"],
-        skinTones: {
-          "Fairytale Ending": ["light"],
-          "Major Crush": ["light", "medium", "deep"],
-          "Lazy Sunday": ["medium", "light"],
-          "Pay Day": ["deep", "light"],
-        },
-      },
-      {
-        id: 15,
-        title: "Lasting Fix 60ml",
-        price: 500.0,
-        category: "Makeup",
-        brand: "Maybelline",
-        rating: 4.8,
-        image: IMAGE_MAP.Lastingfix,
-        skinTones: ["light", "medium", "deep"],
-      },
-      {
-        id: 9,
-        title: "Hydrating Radiance Primer 30ml",
-        price: 1050.0,
-        category: "Makeup",
-        brand: "ELV",
-        rating: 4.7,
-        image: IMAGE_MAP.ELV,
-        skinTones: ["light", "medium", "deep"],
-      },
-      {
-        id: 10,
-        title: "Infallible Setting Spray 60ml",
-        price: 800.0,
-        category: "Skincare",
-        brand: "L’Oreal Parees",
-        rating: 4.4,
-        image: IMAGE_MAP.spray,
-        skinTones: ["light", "medium", "deep"],
-      },
-      {
-        id: 17,
-        title: "Hollywood Blush ",
-        price: 5350.0,
-const sampleProducts = useMemo(
-    () => [
-      {
-        id: 18,
-        title: "Kae Beauty Luminara Creme Lipstick",
         desc: "A creamy, luxe formula that glides like melted satin and settles into a luminous, soft-focus finish — without ever feeling heavy. One swipe gives rich colour, two swipes become a full on mood. Hydrating, non-sticky and crazy comfortable to wear all day. Waterproof, transfer-resistant, and somehow still feels plush — like your lips, but quietly richer.",
         price: 1000.0,
         category: "Makeup",
@@ -407,7 +306,6 @@ desc: "The OG dramatic mascara — one swipe = instant volume and bold definitio
     ],
     []
   );
-
   const brands = useMemo(
     () => ["All", ...Array.from(new Set(sampleProducts.map((p) => p.brand)))],
     [sampleProducts]
